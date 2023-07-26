@@ -40,8 +40,8 @@
         <div data-theme="{$theme === 'light' ? 'garden' : 'dark'}" class="flex flex-col min-h-screen">
             <div class="flex flex-col grow h-full">
                 <Header auth={auth} on:localeChanged={e => setupI18n({ withLocale: e.detail }) }/>
-                <Route path="/" component={Home} />
-                <Route path="/login"><Login auth={auth} on:refreshAuth={refreshAuth} on:logOut={logOut} /></Route>
+                <Route path="/CharityWebsite" component={Home} />
+                <Route path="/CharityWebsite/login"><Login auth={auth} on:refreshAuth={refreshAuth} on:logOut={logOut} /></Route>
                 <Route component={NotFound} />
             </div>
             <Footer />

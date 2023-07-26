@@ -1,7 +1,7 @@
+import { _, dictionary, locale } from 'svelte-i18n';
 import { derived } from 'svelte/store';
-import { dictionary, locale, _ } from 'svelte-i18n';
 
-const MESSAGE_FILE_URL_TEMPLATE = '/lang/{locale}.json';
+const MESSAGE_FILE_URL_TEMPLATE = '/CharityWebsite/lang/{locale}.json'
 
 let cachedLocale;
 
@@ -21,4 +21,4 @@ function setupI18n({ withLocale: _locale } = { withLocale: 'en' }) {
 
 const isLocaleLoaded = derived(locale, $locale => typeof $locale === 'string');
 
-export { _, locale, setupI18n, isLocaleLoaded };
+export { _, isLocaleLoaded, locale, setupI18n };
