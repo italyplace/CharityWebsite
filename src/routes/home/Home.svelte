@@ -17,15 +17,7 @@
 </script>
 <div>
     <div class="flex flex-col items-center justify-center bg-base-100">
-        <div class="alert alert-warning shadow-lg w-fit p-0 transition-all duration-300 ease-out overflow-hidden mx-4 {alert === true ? 'max-h-96' : 'max-h-0'}">
-            <div class="p-2">
-                <span class="material-icons-round">warning</span>
-                <span class="font-patrickhand font-normal text-xl text-center">{$_("home.beta")}</span>
-                <button class="btn btn-warning btn-circle" on:click={() => alert = false}>
-                    <span class="material-icons-round">close</span>
-                </button>
-            </div>
-        </div>
+     
         <h1 class="font-comingsans font-extrabold text-8xl tracking-wide my-8 text-center">{$_('app.name')}</h1>
         <p class="font-patrickhand font-normal text-4xl text-center line-through">{$_("home.description")}</p>
         <p class="font-patrickhand font-normal text-4xl mb-8 text-center">{$_("home.description.place")}</p>
