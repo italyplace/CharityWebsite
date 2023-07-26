@@ -1,179 +1,99 @@
 {
-    "app": {
-        "name": "Charity"
-    },
-    "notFound": {
-        "title": "404",
-        "description": "Page Not Found"
-    },
-    "header": {
-        "login": "LOGIN",
-        "loggedIn": "Logged in as {username}",
-        "language": "Language",
-        "languages": {
-            "en": "English",
-            "fr": "French",
-            "de": "German",
-            "ru": "Russian",
-            "es": "Spanish",
-            "sv": "Swedish",
-            "tok": "Toki Pona"
-        }
-    },
-    "footer": {
-        "thirdParty": "Charity is a third party website. It is not directly affiliated with Pxls.",
-        "createdBy": "Created by {name}"
-    },
-    "login": {
-        "pxls": {
-            "label": "Log into Pxls",
-            "card.title": "Log into Pxls!",
-            "card.description": "Log in with..."
-        },
-        "discord": {
-            "label": "Link Pxls to Discord",
-            "card.title": "Logged into Pxls as {username}.",
-            "card.description": "Link {username} with Discord...",
-            "card.button": "Login with Discord"
-        },
-        "complete": {
-            "label": "Complete!",
-            "card.title": "You're already logged in!",
-            "card.description": "Logged in as {username}.",
-            "card.button": "Not you?"
-        }
-    },
-    "home": {
-        "beta": "Charity is in Beta! Some features may not be complete!",
-        "description": "Pxls Templates, Information, and Utilities",
-        "description.place": "Now supporting r/place!",
-        "createTemplate": "Create a Template",
-        "addDiscordBot": "Add our Discord Bot"
-    },
-    "place": {
-        "createTemplate": {
-            "name": "Create an r/place Template!",
-            "contact": {
-                "label": "Contact Information",
-                "placeholder": "Type here..."
-            },
-            "templates": {
-                "label": "Templates",
-                "addTemplate": "Add Template"
-            },
-            "modal": {
-                "templateName": {
-                    "label": "Template Name",
-                    "placeholder": "Type here..."
-                },
-                "templateSources": {
-                    "label": "Template Sources",
-                    "url": {
-                        "label": "Template Image URL",
-                        "placeholder": "Type here...",
-                        "load": "Load"
-                    },
-                    "add": "Add Source",
-                    "remove": "Remove Source"
-                },
-                "x": {
-                    "label": "X"
-                },
-                "y": {
-                    "label": "Y"
-                },
-                "remove": "Remove",
-                "done": "Done"
-            },
-            "whitelist": {
-                "label": "Whitelist",
-                "name": "Name",
-                "url": "URL",
-                "placeholder": "Type here...",
-                "button": "Whitelist"
-            },
-            "blacklist": {
-                "label": "Blacklist",
-                "name": "Name",
-                "url": "URL",
-                "placeholder": "Type here...",
-                "button": "Blacklist"
-            },
-            "import": {
-                "button": "Import",
-                "label": "Template JSON",
-                "placeholder": "Type here...",
-                "done": "Done"
-            }
-        }
-    },
-    "pixelization": {
-        "name": "Pixelization",
-        "image": {
-            "original": "ORIGINAL",
-            "pixelated": "PIXELATED",
-            "upload": "Drop image here or click to upload",
-            "download": "Download"
-        },
-        "options": {
-            "sample": {
-                "name": "SAMPLE",
-                "palette": {
-                    "label": "Palette",
-                    "pxls": "Pxls",
-                    "rplace1": "r/place '22 (Day 1)",
-                    "rplace2": "r/place '22 (Day 2)",
-                    "rplace3": "r/place '22 (Day 3)"
-                },
-                "absolute": {
-                    "name": "ABSOLUTE",
-                    "width": "Width",
-                    "height": "Height"
-                },
-                "relative": {
-                    "name": "RELATIVE",
-                    "scaleX": "Scale X",
-                    "scaleY": "Scale Y"
-                }
-            },
-            "colors": {
-                "name": "COLORS",
-                "colorDistanceAlg": {
-                    "label": "Color Distance Algorithm",
-                    "rgb": "RGB (PxlsFiddle \"Fast\")",
-                    "cie76": "CIE76",
-                    "cie94": "CIE94",
-                    "ciede2000": "CIEDE2000 (PxlsFiddle \"Accurate\")",
-                    "xyz": "XYZ",
-                    "ycc": "YCC",
-                    "yiq": "YIQ",
-                    "yuv": "YUV",
-                    "kMeans": "K-Means (Recommended!)"
-                },
-                "ditherAlg": {
-                    "label": "Dithering Algorithm",
-                    "none": "No Dithering",
-                    "bayer8x8": "Bayer 8x8",
-                    "bayer4x4": "Bayer 4x4",
-                    "bayer2x2": "Bayer 2x2",
-                    "cluster8x8": "Cluster 8x8",
-                    "cluster4x4": "Cluster 4x4",
-                    "floydSteinbergPerComponent": "Floyd-Steinberg (Per Component)",
-                    "floydSteinbergDistributedError": "Floyd-Steinberg (Distributed Error)"
-                },
-                "ditherAmount": "Dither Amount",
-                "alphaThreshold": "Alpha Threshold"
-            },
-            "process": {
-                "name": "PROCESS",
-                "brightness": "Brightness",
-                "contrast": "Contrast",
-                "saturation": "Saturation",
-                "gamma": "Gamma",
-                "sharpness": "Sharpness",
-                "hue": "Hue"
-            },
-            "reset": "RESET"
-        }
+  "app": {
+    "name": "Pixelator"
+  },
+  "notFound": {
+    "title": "404",
+    "description": "Page Not Found"
+  },
+  "header": {
+    "login": "LOGIN",
+    "loggedIn": "Logged in as {username}",
+    "language": "Language",
+    "languages": {
+      "en": "English",
+      "fr": "French",
+      "de": "German",
+      "ru": "Russian",
+      "es": "Spanish",
+      "sv": "Swedish",
+      "tok": "Toki Pona"
     }
+  },
+  "footer": {
+    "createdBy": "Original work by {name}, hacked by d-beezee"
+  },
+
+  "home": {
+    "description.place": "Pixel out your images!"
+  },
+  "pixelization": {
+    "name": "Pixelization",
+    "image": {
+      "original": "ORIGINAL",
+      "pixelated": "PIXELATED",
+      "upload": "Drop image here or click to upload",
+      "download": "Download"
+    },
+    "options": {
+      "sample": {
+        "name": "SAMPLE",
+        "palette": {
+          "label": "Palette",
+          "pxls": "Pxls",
+          "rplace1": "r/place '22 (Day 1)",
+          "rplace2": "r/place '22 (Day 2)",
+          "rplace3": "r/place '22 (Day 3)"
+        },
+        "absolute": {
+          "name": "ABSOLUTE",
+          "width": "Width",
+          "height": "Height"
+        },
+        "relative": {
+          "name": "RELATIVE",
+          "scaleX": "Scale X",
+          "scaleY": "Scale Y"
+        }
+      },
+      "colors": {
+        "name": "COLORS",
+        "colorDistanceAlg": {
+          "label": "Color Distance Algorithm",
+          "rgb": "RGB (PxlsFiddle \"Fast\")",
+          "cie76": "CIE76",
+          "cie94": "CIE94",
+          "ciede2000": "CIEDE2000 (PxlsFiddle \"Accurate\")",
+          "xyz": "XYZ",
+          "ycc": "YCC",
+          "yiq": "YIQ",
+          "yuv": "YUV",
+          "kMeans": "K-Means (Recommended!)"
+        },
+        "ditherAlg": {
+          "label": "Dithering Algorithm",
+          "none": "No Dithering",
+          "bayer8x8": "Bayer 8x8",
+          "bayer4x4": "Bayer 4x4",
+          "bayer2x2": "Bayer 2x2",
+          "cluster8x8": "Cluster 8x8",
+          "cluster4x4": "Cluster 4x4",
+          "floydSteinbergPerComponent": "Floyd-Steinberg (Per Component)",
+          "floydSteinbergDistributedError": "Floyd-Steinberg (Distributed Error)"
+        },
+        "ditherAmount": "Dither Amount",
+        "alphaThreshold": "Alpha Threshold"
+      },
+      "process": {
+        "name": "PROCESS",
+        "brightness": "Brightness",
+        "contrast": "Contrast",
+        "saturation": "Saturation",
+        "gamma": "Gamma",
+        "sharpness": "Sharpness",
+        "hue": "Hue"
+      },
+      "reset": "RESET"
+    }
+  }
 }
