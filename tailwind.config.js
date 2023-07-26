@@ -5,13 +5,13 @@ module.exports = {
       {
         dark: {
           ...require("daisyui/src/colors/themes")["[data-theme=dark]"],
-          primary: "#f8a5a8"
+          primary: "#550091"
         },
       },
       {
         garden: {
           ...require("daisyui/src/colors/themes")["[data-theme=garden]"],
-          primary: "#f8a5a8"
+          primary: "#550091"
         },
       }
     ],
@@ -20,8 +20,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'comingsans': ['Coming Sans', 'Shantell Sans', 'cursive'],
-        'patrickhand': ['Patrick Hand', 'Shantell Sans', 'cursive']
+        'pixl': ['Handjet', 'cursive'],
       }
     }
   },
